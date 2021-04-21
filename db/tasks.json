@@ -1,0 +1,22 @@
+[
+    {
+        "completed": false,
+        "description": "Mouse",
+        "amount": 3000,
+        "note": "This one is better",
+        "createdAt": 1000,
+        "id": "_0dpkugt5n",
+        "created_at": 1613057879107,
+        "updated_at": 1613057879107
+    },
+    {
+        "completed": false,
+        "description": "Mouse",
+        "amount": 3000,
+        "note": "This one is better",
+        "createdAt": 1000,
+        "id": "_qrujc9vke",
+        "created_at": 1613057910948,
+        "updated_at": 1613057910948
+    }
+]
