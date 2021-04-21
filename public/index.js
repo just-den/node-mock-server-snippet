@@ -143,6 +143,7 @@ app.post('/api/auth/logout', async (req, res) => {
 	AUTHENTICATION EXTERNAL 
 
 */
+// https://dev.to/sivaneshs/add-google-login-to-your-react-apps-in-10-mins-4del
 app.post('/api/auth/google', async (req, res) => {
 	const ticket = await client.verifyIdToken({
 		idToken: req.token,
@@ -163,6 +164,8 @@ app.post('/api/auth/google', async (req, res) => {
 	FILES UPLOADS
 
 */
+// https://github.com/expressjs/multer/blob/master/doc/README-ru.md
+// https://metanit.com/web/nodejs/10.2.php
 const storageConfig = multer.diskStorage({
     destination: (req, file, cb) =>{
         cb(null, "uploads");
